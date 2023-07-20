@@ -1,0 +1,30 @@
+function setup() {
+    createCanvas(500, 500)
+    background(25,0,25)
+ }
+
+function draw() {
+    point(20,20)
+    fill(255,255,255)
+    circle(300,100, 100,50)
+    fill(255,255,255)
+    ellipse(400,400,100,130)
+    fill(255,0,0)
+    ellipse(450,450,130,100)
+    fill(255,255,255)
+    ellipse(200,400,100,130)
+    fill(255,0,0)
+    ellipse(150,450,130,100)
+    fill(255,255,255)
+    ellipse(300,250,230,250)
+    fill(0,0,255)
+    rect(250,140,100,70)
+    fill(255,255,255)
+    ellipse(170,250,50,150)
+    fill(255,255,255)
+    ellipse(430,250,50,150)
+    fill(255,0,0)
+    rect(410,300,40,40)
+    fill(255,0,0)
+    rect(150,300,40,40)
+}

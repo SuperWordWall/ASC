@@ -3,16 +3,23 @@ let myYPos = 100;
 let enemyXPos = 300;
 let enemyYPos = 300;
 let score = 0;
+let playerImage;
+let enemyImage;
 
 let myLeft, myRight, myTop, myBottom;
 let enemyLeft, enemyRight, enemyTop, enemyBottom;
+
+function preload(){ 
+    playerImage = loadImage("ascimages/ASCplayer.png")
+    enemyImage = loadImage("ascimages/ASCenemy.png")
+}
 
 function setup() {
    createCanvas(500, 500);
    noStroke();
 
 
-   rectMode(CENTER);
+   imageMode(CENTER);
 }
 
 
@@ -21,12 +28,10 @@ function draw() {
 
 
    fill(0, 0, 255);
-   rect(enemyXPos, enemyYPos, 50, 50);
-
+    image(enemyImage,enemyXPos,enemyYPos,50,50)
 
    fill(255, 0, 0);
-   rect(myXPos, myYPos, 50, 50);
-
+   image(playerImage, myXPos, myYPos, 50, 50);
 
    if (keyIsDown(LEFT_ARROW)) {
        myXPos -= 3;
@@ -72,7 +77,7 @@ function draw() {
        text("I'm colliding with my enemy. Ouch!", 140, 480); */
        enemyXPos = random(0,500);
        enemyYPos = random(0,500);
-       rect(enemyXPos, enemyYPos, 50, 50);
+       image(enemyImage,enemyXPos, enemyYPos, 50, 50);
 
    }
 

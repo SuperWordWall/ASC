@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, orange, brown);
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px gray;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+h1{
+    font-family: Helvetica;
+    text-align: center;
+    background-color: gray;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 5px;
+ }
+
+ nav {
+    background-color: #ffffff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ #shop{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    justify-content: center;
+    text-align: center;
+ }
+
+ img{
+    width: 55px;
+ }
+
+ .items:hover {
+    background-color: gray;
+    opacity: 0.5;
+ }
+
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 

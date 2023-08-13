@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+  }
+  
+  body {
+    background: linear-gradient(to right, #fff3db, #ffe5e5);
+    
+  }
+
+  form {
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+  }
+
+  label {
+    margin-top: 15px;
+  }
+
+input {
+    margin-bottom: 15px;
+}
